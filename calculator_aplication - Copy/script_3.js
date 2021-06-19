@@ -123,10 +123,6 @@ let moveWindow = document.getElementById('move')
 
       document.querySelector('.colorBtn').style.background = buttonColorDark
   
-      // document.querySelectorAll('.special').forEach(element => {
-      //   element.style.background = themeColorDark
-      // })
-
       
  
       moveWindow.style.background = themeColorDark
@@ -193,10 +189,6 @@ let moveWindow = document.getElementById('move')
 
       document.querySelector('.colorBtn').style.background = buttonColorLight
   
-       // document.querySelectorAll('.special').forEach(element => {
-       //   element.style.background = themeColorLight
-      // })
-
       
  
       moveWindow.style.background = themeColorLight

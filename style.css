@@ -1,0 +1,170 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+  background: rgb(20, 20, 20);
+  
+}
+
+#calculator_container{
+  border-radius: 3px;
+  top: 45px;
+  left: 240px;
+  position: absolute;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(142px, auto) 40px repeat(5, 60px);
+  background-color: rgb(47, 46, 52);
+  color: rgb(250, 235, 215);
+  width:fit-content;
+  height: 475px;
+  grid-gap: 2.5px;
+  overflow: hidden;
+  transform: translate(-50%);
+  
+}
+
+
+.calculatorClosed{
+  height: 20px !important; 
+}
+
+
+.butons{
+  cursor: default;
+  user-select:none;
+  background-color: rgb(88, 86, 84);
+  text-align: center;
+  line-height: 60px;
+  position: relative;
+  border-radius: 2px;
+  font-size: 23px;
+ 
+}
+.butons:hover{
+  background-color: rgb(133, 132, 130);
+  transition: all 0.5s linear;
+}
+.butons:active{
+  background-color: rgb(255, 145, 0);
+  transition: all -1s linear;
+}
+
+.activeBtn{
+  background-color: rgb(255, 145, 0);
+  transition: all -1s linear;
+}
+.specialColor{
+  background-color: rgb(255, 145, 0);
+  
+}
+.dysplay{
+  color:  rgb(255, 145, 0);
+  padding-right: 20px;
+  line-height: 60px;
+  text-align: end;
+  grid-column: span 4;
+}
+.line{
+  line-height: 40px;
+}
+.number{
+  font-size: 25px;
+  background-color: rgb(27, 27, 27);
+}
+.colorBtn{
+  background-color: rgb(88, 86, 84);
+}
+.actualOperation{
+  font-size: 40px;
+  position: absolute;
+  right: 10px;
+  top: 64px;
+}
+
+
+
+ .specialClass{
+  border-radius: 25%;
+  transition: all 0.5s linear;
+  background-color: rgba(253, 109, 26, 0) ;
+  height: 150px;
+  width: 150px;
+  
+} 
+
+.all{
+  position: relative;
+  overflow: auto;
+}
+
+#move{
+  position: relative;
+  text-align: right;
+  line-height: 1.7;
+  cursor: default;
+  user-select:none;
+  top: -478px;
+  left: -20px;
+  background-color: rgb(255, 145, 0);
+  height: 23px;
+  width: 387px;
+
+  
+}
+
+.postOperation{
+  position: relative;
+  top: 35px;
+}
+
+::selection {
+  color: rgb(255, 145, 0);
+  background: rgba(103, 80, 5, 0.156);
+  
+}
+
+#resize{
+  color: rgb(255, 145, 0);
+  text-align: center;
+  line-height: 1.8;
+  background: rgba(255, 0, 0, 0);
+  top: -478px;
+  position: relative;
+  left: 284px;
+  height: 23px;
+  width: 22px;
+}
+
+.topNav{
+  
+  position: relative;
+  top: -251px !important;
+  
+}
+
+.topNav2{
+  
+  position: relative;
+  top: -251px !important;
+  left: 0px !important;
+}
+
+#theme{
+  color: rgb(177, 177, 177);
+  text-align: center;
+  position: relative;
+  top: -473px;
+  left: 166px;
+  width: 17px;
+}
+
+.upabit{
+  line-height: 45px;
+}

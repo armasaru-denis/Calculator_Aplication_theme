@@ -15,7 +15,6 @@ body{
   top: 45px;
   left: 240px;
   position: absolute;
-  /* margin:20px auto; */
   display: grid;
   justify-content: center;
   align-content: center;
@@ -27,24 +26,15 @@ body{
   height: 475px;
   grid-gap: 2.5px;
   overflow: hidden;
-  /* display: none; */
-  /* transform: translate(-50%); */
-  /* z-index: -1; */
   transform: translate(-50%);
   
 }
 
 
 .calculatorClosed{
-  height: 20px !important;
-  
-  
+  height: 20px !important; 
 }
 
-/* .calculatorClosed :hover{
-  box-shadow:  0px 0px 10px rgb(255, 186, 112);
-  overflow: visible;
-} */
 
 .butons{
   cursor: default;
@@ -55,7 +45,7 @@ body{
   position: relative;
   border-radius: 2px;
   font-size: 23px;
-  /* display: none; */
+ 
 }
 .butons:hover{
   background-color: rgb(133, 132, 130);
@@ -103,9 +93,6 @@ body{
  .specialClass{
   border-radius: 25%;
   transition: all 0.5s linear;
-  /* left: -27px;
-  top: 195px; */
-  /* transform: translate(-50%, -50%); */
   background-color: rgba(253, 109, 26, 0) ;
   height: 150px;
   width: 150px;
@@ -123,7 +110,6 @@ body{
   line-height: 1.7;
   cursor: default;
   user-select:none;
-  
   top: -478px;
   left: -20px;
   background-color: rgb(255, 145, 0);
